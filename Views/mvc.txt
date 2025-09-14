@@ -1,0 +1,172 @@
+fas fa-user  utilisateur
+fas fa-home  accueil
+fas fa-cog  Parametre
+fas fa-edit  modification
+
+
+N Prenom Filiere
+Cahier de charge
+client cible
+etude de marche
+fonctionnalite{
+    login
+    creation
+    read
+    update
+    delete
+    recherche
+}
+
+theme : note
+Double inteface{
+    connexion user
+    visite simple
+}
+
+prompt
+{
+    Peut tu faire deux interface principale d'un site web minimarket en php dont l'une concue pour etre visiter simplement et l'autre interface principale utilisateur dont il y aura:
+        pour visite simple{
+            categorie
+            mode sombre
+            favoris
+            Connexion ou user
+            }
+        pour un utilisateur connecter{
+            mode visite + les suivantes{
+                profil utilisateur
+                espace de trocs ou echange
+                discussion avec vendeur ou acheteur
+                historique
+                fonctionnalite de deposer une article a vendre
+            }
+        }
+    puis ajouter d'autres (fonctionnalites,option,etc..) choses essentielles comme une site proffesionnelle pret a etre publier en ligne
+    N.B:faite qu'il soit dans un seul fichier chaqu'un comme (visite.php pour l'interface visite) et (utilisateur.php pour connexion autant qu'user)
+}
+design{
+    mode switch
+    interface plus moderne(inspiration Airbnb)
+    carrousel photo moderne
+}
+
+Specification{
+    =>  Profil user
+    Filtre par (prix,categorie,notes vendeurs,etc..)
+    stock disponible
+    =>  Avis et notation des acheteurs
+    produits similaire
+    =>  discussion entre vendeur et acheteur
+
+    Panier {
+        # ajouter/retrait
+        processus de commande en plusieurs etapes
+        # mode de paymant(echange,paypal,etc)
+        # (Recu)recapitulatif avant paiement
+    }
+    systeme d'ajout d'un article a vendre{
+        etapes{
+
+        }
+    }
+    formulaire produits
+    marquage des commandes
+    =>  historique
+}
+fonctionnalite:{
+    Chat instantanne
+    
+    =>  trocs
+    
+    =>  enchere
+    =>  rebourssement si possible
+    =>  gamification
+    
+    groupe d'interet
+    recherche par image
+
+}
+
+specification:{
+    discussion
+    gamification
+    trocs/echange
+    enchere
+}
+
+concepts{
+    visite{
+        categorie
+    }
+    login{
+        +visite
+
+        espace (vendre/acheter)
+        discussion
+        info perso
+        trocs / echange
+        espace favoris
+        Groupe d'interet
+        systeme de gamification
+    }
+}
+
+
+
+formulaire{
+    ajouter article{
+        titre
+        prix
+        description
+        photo
+
+        publier{
+            affichagea(article)
+            choix{
+                paiment argent
+                echanger{
+                    formulaire{
+                        titre 
+                        description
+                        photo
+                    }
+                valider()
+                }
+            }
+        }
+
+        inteface qui montre l'article a echanger et l'enchange()
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+j'aimerais une exemple de code complet avec tout les fonctionnalite possible et ajouter les styles bootstrap
+
+zah
+rocklee
+tsoutsou
+baina
+mami
+fenosoa
+
+tokini
+safidy
+jeri
+fy
+njara
+mario
+
